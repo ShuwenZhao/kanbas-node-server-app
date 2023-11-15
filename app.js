@@ -13,7 +13,10 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.FRONTEND_URL,
+    origin:
+      process.env.NODE_ENV === "production"
+        ? process.env.FRONTEND_URL
+        : process.env.FRONTEND_URL_LOCAL,
   })
 );
 app.use(express.json());
