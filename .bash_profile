@@ -1,1 +1,1 @@
-export DB_CONNECTION_STRING="mongodb+srv://shuwenzhao:NXbjNNo8Qwda8aMD@cluster-cs5610-a6.ux2047a.mongodb.net/?retryWrites=true&w=majority"
+export DB_CONNECTION_STRING="mongodb+srv://shuwenzhao:7kwmqcz5eyY4j5@cluster-cs5610-a6.ux2047a.mongodb.net/?retryWrites=true&w=majority"
